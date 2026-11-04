@@ -8,6 +8,12 @@ source source_me.sh && python3 build_flyer.py -i flyers/stvc/stvc.yaml
 
 The default result is `output/pdf/stvc.pdf`. Use `-o` to choose another PDF path.
 
+Build the GitHub overview flyer:
+
+```bash
+source source_me.sh && python3 build_flyer.py -i flyers/github/github.yaml
+```
+
 ## Layout language
 
 Flyers use nested `row` and `col` blocks. Rows divide the available width by `weight`; columns

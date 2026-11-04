@@ -12,4 +12,6 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 - Flyer source should use rows and columns and avoid authored coordinates.
 - Build the StVC migration as a redesign while preserving its final content and print brief.
+- Make a one-page Voss Lab GitHub overview for students, instructors, and curious makers. It should
+  feature one prominent profile QR code and concrete project categories without stale project counts.
 
