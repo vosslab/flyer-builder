@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 270" role="img"><title>Plaque Attack: a tiny surgeon fires upward to split a floating plaque target</title><g fill="none" stroke="#BF6D77" stroke-width="5" stroke-linecap="round"><path d="M15 49Q245 4 484 49M15 70Q245 28 484 70M15 239Q245 265 484 239M15 218Q245 244 484 218"/></g>
+<path d="M26 145H70M61 137L70 145L61 153M413 145H469M460 137L469 145L460 153" stroke="#B74300" stroke-width="3" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="125" viewBox="0 0 96 128" role="img" aria-labelledby="surgeon-title surgeon-desc" x="65" y="113">
+  <title id="surgeonsurgeon-title">The little artery surgeon</title>
+  <desc id="surgeonsurgeon-desc">A friendly masked surgeon in a mint cap and teal scrubs, with pale gloves, short boots, and an upward stent applicator. Fictional arcade character.</desc>
+  <defs><linearGradient id="surgeonsurgeon-scrubs" x2="1" y2="1"><stop stop-color="#49e5cf" /><stop offset="1" stop-color="#148f97" /></linearGradient></defs>
+  <g stroke="#122b43" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <g id="surgeonsurgeon-legs"><path d="M30 96h17v23H28zM50 96h17l3 23H50z" fill="#167889" /><path d="M29 114h17v9H22q-1-7 7-9M51 114h16q9 2 8 9H51z" fill="#24465b" /><path d="M25 122h18m12 0h16" stroke="#9ed4db" stroke-width="2" /></g>
+    <g id="surgeonsurgeon-torso"><path d="M26 62Q48 53 69 64l8 33q-28 12-56 0z" fill="url(#surgeonsurgeon-scrubs)" /><path d="m37 64 11 12 10-12M48 76v25" fill="none" stroke="#b0fff0" stroke-width="2" /><path d="M55 81h12v12H55z" fill="#147585" stroke-width="2" /><path d="M57 82h8" stroke="#8df3df" stroke-width="1.8" /></g>
+    <g id="surgeonsurgeon-tool"><path d="M77 65V29" stroke="#d7edf4" stroke-width="8" /><path d="M77 60V30" stroke="#6b91a6" stroke-width="2" /><path d="M71 29h12l-3-15h-6z" fill="#e4f8ff" /><path d="m74 19 6 6m-6 0 6-6" stroke="#6997aa" stroke-width="1.5" /><path d="M72 44H82V51H72Z" fill="#f9c869" stroke-width="2" /><rect x="70" y="59" width="14" height="20" rx="4" fill="#f9c869" /></g>
+    <g id="surgeonsurgeon-hands"><g id="surgeonsurgeon-free-arm">
+ <path d="M26,68L19,81L19,92" fill="none" stroke="#162b40" stroke-width="11.2" />
+ <path d="M26,68L19,81L19,92" fill="none" stroke="#bc825e" stroke-width="7.6" />
+ <path d="M26,68L21.733101592684843,75.92423989929958" fill="none" stroke="#162b40" stroke-width="13" stroke-linecap="butt" />
+ <path d="M26,68L21.733101592684843,75.92423989929958" fill="none" stroke="#49e5cf" stroke-width="9.5" stroke-linecap="butt" />
+ <g id="surgeonsurgeon-free-glove" transform="translate(19,92)"><path d="M-4-4L3-4L5 2Q2 7-3 4L-5 0Z" fill="#effff9" /></g>
+ </g><g id="surgeonsurgeon-tool-arm">
+ <path d="M65,68L69,85L77,72" fill="none" stroke="#162b40" stroke-width="11.2" />
+ <path d="M65,68L69,85L77,72" fill="none" stroke="#bc825e" stroke-width="7.6" />
+ <path d="M65,68L67.06135400352993,76.76075451500219" fill="none" stroke="#162b40" stroke-width="13" stroke-linecap="butt" />
+ <path d="M65,68L67.06135400352993,76.76075451500219" fill="none" stroke="#49e5cf" stroke-width="9.5" stroke-linecap="butt" />
+ <g id="surgeonsurgeon-tool-glove" transform="translate(77,72)"><path d="M-5 2L-5-4Q-3-8 1-5L5-2L5 4L0 7L-5 5Z" fill="#effff9" /><path d="M-1-2L4 0M-1 2L4 4" fill="none" stroke="#78aab5" stroke-width="1.5" /></g>
+ </g></g>
+    <g id="surgeonsurgeon-head"><ellipse cx="46" cy="39" rx="25" ry="27" fill="#bc825e" /><ellipse cx="21" cy="42" rx="5" ry="8" fill="#d29b74" /><path d="M21 30q-7-9 3-18Q45-2 66 13q11 6 7 18l-5 5H23z" fill="#69ecd3" /><path d="M24 16q17-10 35-2" fill="none" stroke="#caffee" stroke-width="4" /><path d="M22 29q25-5 48 1" fill="none" stroke="#179c99" stroke-width="4" /><path d="M22 42q24-8 48 0l-5 20q-18 11-37-1z" fill="#e0fff7" /><path d="M29 48h33m-30 7h27" stroke="#81c5bf" stroke-width="2" /><path d="M32 36h6m16 0h6" stroke-width="4" /><circle cx="35" cy="36" r="1" fill="#fff" stroke="none" /><circle cx="57" cy="36" r="1" fill="#fff" stroke="none" /></g>
+  </g>
+</svg><svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 128 128" role="img" aria-labelledby="lipid-amber-title lipid-amber-desc" x="133" y="35">
+  <title id="lipidlipid-amber-title">Amber lipid globule</title>
+  <desc id="lipidlipid-amber-desc">Original stylized golden lipid target with a rounded irregular contour. Fictional arcade object, not a molecular structure.</desc>
+  <defs><linearGradient id="lipidlipid-amber-gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#ffe993" /><stop offset=".48" stop-color="#ffca46" /><stop offset="1" stop-color="#e98c28" /></linearGradient></defs>
+  <g id="lipidlipid-amber-silhouette" stroke-linejoin="round"><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="url(#lipidlipid-amber-gold)" stroke="#fff0ac" stroke-width="5" /><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="none" stroke="#7b381f" stroke-width="2.8" /></g>
+  <g id="lipidlipid-amber-folds" fill="none" stroke="#ad5c22" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><path d="M46 52C63 40 89 46 92 66C95 86 75 99 58 91" /><ellipse cx="43" cy="79" rx="7" ry="10" /></g>
+  <g id="lipidlipid-amber-light" fill="none" stroke="#fff7c7" stroke-width="6" stroke-linecap="round"><path d="M30 43Q37 26 53 23" /><path d="M25 55L24 59" /></g>
+  <g id="lipidlipid-amber-pores" fill="#a35a24"><ellipse cx="73" cy="25" rx="2.3" ry="1.8" /><ellipse cx="101" cy="61" rx="2" ry="3" /><ellipse cx="49" cy="104" rx="3" ry="1.7" /></g>
+</svg><svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 128 128" role="img" aria-labelledby="lipid-dimpled-title lipid-dimpled-desc" x="310" y="60">
+  <title id="targetlipid-dimpled-title">Dimpled lipid globule</title>
+  <desc id="targetlipid-dimpled-desc">Original stylized golden lipid target with a rounded irregular contour. Fictional arcade object, not a molecular structure.</desc>
+  <defs><linearGradient id="targetlipid-dimpled-gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#ffe993" /><stop offset=".48" stop-color="#ffca46" /><stop offset="1" stop-color="#e98c28" /></linearGradient></defs>
+  <g id="targetlipid-dimpled-silhouette" stroke-linejoin="round"><path d="M60 8C86 7 110 26 116 51C123 79 104 104 81 114C63 121 35 112 22 94C11 80 9 63 13 49C17 40 29 46 32 37C34 26 43 10 60 8Z" fill="url(#targetlipid-dimpled-gold)" stroke="#fff0ac" stroke-width="5" /><path d="M60 8C86 7 110 26 116 51C123 79 104 104 81 114C63 121 35 112 22 94C11 80 9 63 13 49C17 40 29 46 32 37C34 26 43 10 60 8Z" fill="none" stroke="#7b381f" stroke-width="2.8" /></g>
+  <g id="targetlipid-dimpled-folds" fill="none" stroke="#ad5c22" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="59" cy="50" rx="11" ry="8" /><ellipse cx="84" cy="76" rx="9" ry="13" /><path d="M35 75Q32 91 51 94" /></g>
+  <g id="targetlipid-dimpled-light" fill="none" stroke="#fff7c7" stroke-width="6" stroke-linecap="round"><path d="M30 43Q37 26 53 23" /><path d="M25 55L24 59" /></g>
+  <g id="targetlipid-dimpled-pores" fill="#a35a24"><ellipse cx="73" cy="25" rx="2.3" ry="1.8" /><ellipse cx="101" cy="61" rx="2" ry="3" /><ellipse cx="49" cy="104" rx="3" ry="1.7" /></g>
+</svg><path d="M139 153L159 112" stroke="#00775F" stroke-width="6" stroke-linecap="round" stroke-dasharray="9 8"/><g stroke="#935D00" stroke-width="3" stroke-linecap="round"><path d="M204 72L227 53M214 88L242 88M201 106L220 125"/></g><svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 128 128" role="img" aria-labelledby="lipid-amber-title lipid-amber-desc" x="233" y="29">
+  <title id="piece1lipid-amber-title">Amber lipid globule</title>
+  <desc id="piece1lipid-amber-desc">Original stylized golden lipid target with a rounded irregular contour. Fictional arcade object, not a molecular structure.</desc>
+  <defs><linearGradient id="piece1lipid-amber-gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#ffe993" /><stop offset=".48" stop-color="#ffca46" /><stop offset="1" stop-color="#e98c28" /></linearGradient></defs>
+  <g id="piece1lipid-amber-silhouette" stroke-linejoin="round"><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="url(#piece1lipid-amber-gold)" stroke="#fff0ac" stroke-width="5" /><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="none" stroke="#7b381f" stroke-width="2.8" /></g>
+  <g id="piece1lipid-amber-folds" fill="none" stroke="#ad5c22" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><path d="M46 52C63 40 89 46 92 66C95 86 75 99 58 91" /><ellipse cx="43" cy="79" rx="7" ry="10" /></g>
+  <g id="piece1lipid-amber-light" fill="none" stroke="#fff7c7" stroke-width="6" stroke-linecap="round"><path d="M30 43Q37 26 53 23" /><path d="M25 55L24 59" /></g>
+  <g id="piece1lipid-amber-pores" fill="#a35a24"><ellipse cx="73" cy="25" rx="2.3" ry="1.8" /><ellipse cx="101" cy="61" rx="2" ry="3" /><ellipse cx="49" cy="104" rx="3" ry="1.7" /></g>
+</svg><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 128 128" role="img" aria-labelledby="lipid-amber-title lipid-amber-desc" x="250" y="104">
+  <title id="piece2lipid-amber-title">Amber lipid globule</title>
+  <desc id="piece2lipid-amber-desc">Original stylized golden lipid target with a rounded irregular contour. Fictional arcade object, not a molecular structure.</desc>
+  <defs><linearGradient id="piece2lipid-amber-gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#ffe993" /><stop offset=".48" stop-color="#ffca46" /><stop offset="1" stop-color="#e98c28" /></linearGradient></defs>
+  <g id="piece2lipid-amber-silhouette" stroke-linejoin="round"><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="url(#piece2lipid-amber-gold)" stroke="#fff0ac" stroke-width="5" /><path d="M67 8C87 10 99 23 111 43C124 66 109 91 93 106C77 121 47 120 28 103C10 89 5 62 16 39C24 20 42 5 67 8Z" fill="none" stroke="#7b381f" stroke-width="2.8" /></g>
+  <g id="piece2lipid-amber-folds" fill="none" stroke="#ad5c22" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><path d="M46 52C63 40 89 46 92 66C95 86 75 99 58 91" /><ellipse cx="43" cy="79" rx="7" ry="10" /></g>
+  <g id="piece2lipid-amber-light" fill="none" stroke="#fff7c7" stroke-width="6" stroke-linecap="round"><path d="M30 43Q37 26 53 23" /><path d="M25 55L24 59" /></g>
+  <g id="piece2lipid-amber-pores" fill="#a35a24"><ellipse cx="73" cy="25" rx="2.3" ry="1.8" /><ellipse cx="101" cy="61" rx="2" ry="3" /><ellipse cx="49" cy="104" rx="3" ry="1.7" /></g>
+</svg></svg>

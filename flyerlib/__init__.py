@@ -1,0 +1,1 @@
+"""Coordinate-free flyer rendering."""

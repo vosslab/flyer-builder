@@ -8,3 +8,8 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 [PROPAGATED HEADER - ENTRIES BELOW ARE YOURS]
 <!-- VENDORED HEADER: END -->
 
+## Flyer authoring (2026-11-04)
+
+- Flyer source should use rows and columns and avoid authored coordinates.
+- Build the StVC migration as a redesign while preserving its final content and print brief.
+

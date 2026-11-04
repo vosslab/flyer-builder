@@ -1,0 +1,110 @@
+title: Stump the Vibe Coder
+page: {margin: 28}
+styles:
+  body: {size: 11, leading: 13, color: "#142535"}
+  eyebrow: {size: 15, leading: 18, bold: true, color: "#00775F"}
+  title: {size: 42, leading: 44, bold: true}
+  invitation: {size: 20, leading: 23, bold: true, color: "#00775F"}
+  game_copy: {size: 9.5, leading: 11.5}
+layout:
+  col:
+    gap: 10
+    items:
+      - row:
+          gap: 14
+          items:
+            - weight: 4
+              block:
+                col:
+                  gap: 5
+                  items:
+                    - text: {value: "Check out Dr. Voss' podcast!", style: eyebrow}
+                    - text: {value: "Stump the\nVibe Coder", style: title}
+            - weight: 1
+              block: {image: {path: assets/dr-voss.png, height: 100}}
+      - row:
+          gap: 16
+          items:
+            - weight: 3
+              block:
+                col:
+                  gap: 6
+                  items:
+                    - text: {value: "We use AI LLM agents to make science and biology games you can play."}
+                    - text: {value: "Watch us build them and see what happens!", bold: true}
+                    - text: {value: "Join us live on YouTube!", style: invitation}
+                    - text: {value: "Wednesdays, typically around 8 p.m. Central.", bold: true}
+                    - text: {value: "Scan to watch us live, or catch up on past episodes.", url: "https://www.youtube.com/playlist?list=PL5LJPD9b2pRYsw2sU3LRCDhvDSiZ26E48"}
+            - weight: 1
+              block: {qr: {url: "https://www.youtube.com/@VossLab/streams", size: 128, icon: assets/youtube.svg}}
+      - row:
+          gap: 16
+          items:
+            - weight: 1
+              block: {image: {path: assets/episode-hosts.jpg, height: 70}}
+            - weight: 3
+              block: {text: {value: "Live science, biology, and AI experiments made together. Pick an episode, then play what we make."}}
+      - rule: {color: "#00775F"}
+      - text: {value: "Pick your next biology adventure", style: invitation}
+      - row:
+          gap: 16
+          items:
+            - weight: 1
+              block:
+                col:
+                  gap: 3
+                  items:
+                    - image: {path: assets/ms-taq-man-wordmark.svg, height: 24}
+                    - row:
+                        gap: 4
+                        items:
+                          - weight: 3
+                            block: {image: {path: assets/maze-chase.svg, height: 54}}
+                          - weight: 1
+                            block: {qr: {url: "https://vosslab.github.io/ms-taq-man/", size: 76, color: "#00775F", label: "Scan to play"}}
+                    - text: {value: "Chase primers through a DNA maze.\nStay ahead of the enzymes.", style: game_copy}
+            - weight: 1
+              block:
+                col:
+                  gap: 3
+                  items:
+                    - image: {path: assets/plaque-attack-wordmark.svg, height: 24}
+                    - row:
+                        gap: 4
+                        items:
+                          - weight: 3
+                            block: {image: {path: assets/artery-blast.svg, height: 54}}
+                          - weight: 1
+                            block: {qr: {url: "https://vosslab.github.io/plaque-attack/", size: 76, color: "#935D00", label: "Scan to play"}}
+                    - text: {value: "A tiny surgeon. A big blockage.\nDodge trouble. Blast the plaque.", style: game_copy}
+      - row:
+          gap: 16
+          items:
+            - weight: 1
+              block:
+                col:
+                  gap: 3
+                  items:
+                    - image: {path: assets/bad-cell-day-wordmark.svg, height: 24}
+                    - row:
+                        gap: 4
+                        items:
+                          - weight: 3
+                            block: {image: {path: assets/cooperative-climb.svg, height: 54}}
+                          - weight: 1
+                            block: {qr: {url: "https://vosslab.github.io/bad-cell-day/", size: 76, color: "#076DAD", label: "Scan to play"}}
+                    - text: {value: "Small heroes. Big trouble in one body.\nTwo players. One keyboard. Team up.", style: game_copy}
+            - weight: 1
+              block:
+                col:
+                  gap: 3
+                  items:
+                    - image: {path: assets/steroid-quest-wordmark.svg, height: 24}
+                    - row:
+                        gap: 4
+                        items:
+                          - weight: 3
+                            block: {image: {path: assets/cell-journey.svg, height: 54}}
+                          - weight: 1
+                            block: {qr: {url: "https://vosslab.github.io/steroid-quest-into-the-nucleus/", size: 76, color: "#C80085", label: "Scan to play"}}
+                    - text: {value: "Small molecule. Big mission.\nFind your receptor. Activate a gene.", style: game_copy}

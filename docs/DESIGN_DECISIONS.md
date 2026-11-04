@@ -21,3 +21,13 @@ authoritative code or contract document, rather than a person.
 
 **Owner.** <the authoritative code or contract doc>
 ```
+
+### Coordinate-free flyer YAML
+
+**Decision.** Flyers use nested YAML rows and columns with measured ReportLab flowables.
+
+**Why.** Flyer authors need to express visual groups without maintaining page coordinates.
+
+**Consequence.** The renderer owns geometry and reports single-page overflow instead of clipping.
+
+**Owner.** `flyerlib/render.py` and `docs/USAGE.md`.

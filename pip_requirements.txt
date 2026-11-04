@@ -1,0 +1,6 @@
+pyyaml  # coordinate-free flyer YAML
+pypdf  # PDF structure verification
+pillow  # image support required by SVG and ReportLab rendering
+qrcode  # local QR-code generation
+reportlab  # PDF layout and rendering
+svglib  # editable SVG artwork
