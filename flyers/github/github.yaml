@@ -1,76 +1,87 @@
 title: Voss Lab on GitHub
 page: {margin: 28}
 styles:
-  body: {size: 11.5, leading: 15, color: "#24354B"}
-  eyebrow: {size: 13, leading: 16, bold: true, color: "#00775F"}
-  title: {size: 40, leading: 42, bold: true, color: "#182B49"}
-  deck: {size: 17, leading: 21, color: "#314A68"}
-  section: {size: 17, leading: 21, bold: true, color: "#182B49"}
-  project: {size: 12.5, leading: 16, bold: true, color: "#00775F"}
-  footer: {size: 10, leading: 12, color: "#51667E", align: center}
+  body: {size: 11, leading: 13.5, color: "#24354B"}
+  eyebrow: {size: 12, leading: 15, bold: true, color: "#00775F"}
+  title: {size: 38, leading: 40, bold: true, color: "#182B49"}
+  deck: {size: 15, leading: 18, color: "#314A68"}
+  section: {size: 15, leading: 18, bold: true, color: "#182B49"}
+  project: {size: 11.5, leading: 14, bold: true, color: "#00775F"}
+  footer: {size: 9, leading: 11, color: "#51667E", align: center}
 layout:
   col:
-    gap: 17
+    gap: 23
     items:
       - row:
-          gap: 20
+          gap: 14
           items:
+            - weight: 1
+              block: {image: {path: assets/profile.png, height: 90}}
             - weight: 3
               block:
                 col:
-                  gap: 6
+                  gap: 4
                   items:
                     - text: {value: "OPEN PROJECTS FOR LEARNING, RESEARCH, AND MAKING", style: eyebrow}
                     - text: {value: "Voss Lab\non GitHub", style: title}
                     - text: {value: "Practical, open tools for students, instructors, researchers, and curious makers.", style: deck}
             - weight: 1
-              block: {qr: {url: "https://github.com/vosslab", size: 145, color: "#182B49", icon: assets/github_mark.svg, label: "SCAN TO EXPLORE"}}
+              block: {qr: {url: "https://github.com/vosslab", size: 126, color: "#182B49", icon: assets/github_octocat.svg, label: "SCAN TO EXPLORE"}}
       - rule: {color: "#00775F", thickness: 2}
+      - image: {path: assets/contribution_graph.png, height: 123}
+      - text: {value: "Pinned projects", style: section}
       - row:
-          gap: 20
+          gap: 16
           items:
             - weight: 1
               block:
                 col:
                   gap: 4
                   items:
-                    - text: {value: "Education and\nquestion banks", style: section}
-                    - text: {value: "qti-package-maker", style: project}
-                    - text: {value: "Move one question bank into portable LMS packages, readable review copies, printable exam sources, and self-grading web quizzes."}
-                    - text: {value: "biology-problems", style: project}
-                    - text: {value: "Create randomized questions for biochemistry, genetics, molecular biology, laboratory skills, and more."}
+                    - text: {value: "Education and assessment", style: eyebrow, color: "#00775F"}
+                    - text: {value: "biology-problems", style: project, color: "#007A00"}
+                    - text: {value: "Randomized biology questions for homework, quizzes, and LMS exports."}
             - weight: 1
               block:
                 col:
                   gap: 4
                   items:
-                    - text: {value: "Interactive biology\nand virtual lab", style: section}
-                    - text: {value: "virtual-lab-protocol-simulation", style: project}
-                    - text: {value: "Practice cell-culture workflows in an interactive browser lab: remove old media, feed cells, treat samples, and observe."}
-                    - text: {value: "Play to learn", style: project}
-                    - text: {value: "Explore biology games and teaching experiments built to make hard ideas tangible."}
-      - rule: {color: "#AFCFC6"}
+                    - text: {value: "Research, games, and AI workflows", style: eyebrow, color: "#935D00"}
+                    - text: {value: "vossvolvox-pages", style: project, color: "#00775F"}
+                    - text: {value: "Measure protein and RNA volume, channels, solvent, and exit tunnels in your browser."}
       - row:
-          gap: 20
+          gap: 16
           items:
             - weight: 1
               block:
                 col:
                   gap: 4
                   items:
-                    - text: {value: "Research: protein geometry and 3V", style: section}
-                    - text: {value: "3vee-server", style: project}
-                    - text: {value: "Use a web interface to run volume calculations.\nContainerized tools support 3V, the Voss Volume Voxelator."}
-                    - text: {value: "Make molecular shape measurable", bold: true, color: "#314A68"}
+                    - text: {value: "qti-package-maker-rs", style: project, color: "#076DAD"}
+                    - text: {value: "One editable question bank becomes LMS packages, practice quizzes, and review copies."}
             - weight: 1
               block:
                 col:
                   gap: 4
                   items:
-                    - text: {value: "Practical tools and\nAI workflows", style: section}
-                    - text: {value: "vosslab-skills", style: project}
-                    - text: {value: "Reusable skills for planning, code review, maintenance, and education-content production."}
-                    - text: {value: "track-runner-virtual-dolly-cam", style: project}
-                    - text: {value: "Turn wide track-meet video into a smooth, stabilized crop that follows one athlete."}
+                    - text: {value: "bad-cell-day", style: project, color: "#935D00"}
+                    - text: {value: "A cooperative puzzle game about two molecular heroes navigating a living tumor."}
+      - row:
+          gap: 16
+          items:
+            - weight: 1
+              block:
+                col:
+                  gap: 4
+                  items:
+                    - text: {value: "concept-map-maker", style: project, color: "#A719DB"}
+                    - text: {value: "Build rubric-checked concept maps in a browser, then export them as SVG, PNG, or data."}
+            - weight: 1
+              block:
+                col:
+                  gap: 4
+                  items:
+                    - text: {value: "vosslab-skills", style: project, color: "#C80085"}
+                    - text: {value: "Reusable agent skills for planning, review, maintenance, and education content."}
       - rule: {color: "#00775F", thickness: 2}
       - text: {value: "Find source code, documentation, and new experiments at github.com/vosslab", style: footer}

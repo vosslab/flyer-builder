@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
-  <title>Code mark</title>
-  <circle cx="32" cy="32" r="30" fill="#182B49"/>
-  <path d="M25 19L13 32L25 45M39 19L51 32L39 45" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M36 15L28 49" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-</svg>

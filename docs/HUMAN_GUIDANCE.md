@@ -14,4 +14,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 - Build the StVC migration as a redesign while preserving its final content and print brief.
 - Make a one-page Voss Lab GitHub overview for students, instructors, and curious makers. It should
   feature one prominent profile QR code and concrete project categories without stale project counts.
+- Make the GitHub flyer visually grounded with the profile photo, contribution graph, and current
+  pinned projects: biology-problems, vosslab-skills, concept-map-maker, qti-package-maker-rs,
+  vossvolvox-pages, and bad-cell-day.
+- Use a harmonious wider accent palette across GitHub flyer sections and projects while keeping a
+  white page, navy body text, and the contribution graph's native greens.
 
