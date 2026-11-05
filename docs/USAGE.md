@@ -1,6 +1,7 @@
 # Usage
 
-Build a one-page US Letter flyer from a YAML source whose nested rows and columns determine layout.
+The production workflow is YAML -> PDF -> print. Build a one-page US Letter flyer from a YAML
+source whose nested rows and columns determine layout.
 
 ## Quick start
 
@@ -17,6 +18,13 @@ source source_me.sh && python3 build_flyer.py -i flyers/github/github.yaml
 ```
 
 Each command writes a PDF under `output/pdf/`, named after its YAML file.
+The GitHub graph is a checked-in local WebP asset, so ordinary flyer builds stay offline.
+
+## Print the PDF
+
+Open the generated PDF in your PDF viewer and print on US Letter paper at actual size (100%).
+The builder produces only the PDF; a full-page raster image is not an intermediate print step.
+Keep source artwork at its original resolution. Optional WebP renders are for review and testing.
 
 ## CLI
 

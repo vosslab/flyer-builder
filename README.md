@@ -13,6 +13,8 @@ The repository includes two finished Letter-size examples: a podcast-and-games f
 
 ## Quick start
 
+The production workflow is YAML -> PDF -> print.
+
 Install the declared Python dependencies, then build either included flyer:
 
 ```bash
@@ -20,7 +22,7 @@ source source_me.sh && python3 -m pip install -r pip_requirements.txt
 source source_me.sh && python3 build_flyer.py -i flyers/github/github.yaml
 ```
 
-The command writes `output/pdf/github.pdf`, a one-page Letter PDF with a linked profile QR code. Run the same command with `flyers/stvc/stvc.yaml` to build the Stump the Vibe Coder example.
+The command writes only `output/pdf/github.pdf`, a one-page Letter PDF with a linked profile QR code. Print that PDF directly from your PDF viewer at actual size (100%). Run the same command with `flyers/stvc/stvc.yaml` to build the Stump the Vibe Coder example.
 
 ## What it provides
 
@@ -59,7 +61,7 @@ source source_me.sh && python3 -m pytest tests/test_flyer_render.py -q
 bash devel/capture_flyer_screenshots.sh
 ```
 
-The capture command rebuilds both examples and encodes the README screenshots as quality-90 WebP files.
+The capture command is optional: it rebuilds both examples and encodes quality-95 WebP screenshots for documentation and visual testing. Full-page WebP files are not print deliverables.
 
 ## License
 

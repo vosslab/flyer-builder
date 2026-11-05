@@ -1,5 +1,5 @@
 title: Stump the Vibe Coder
-page: {margin: 28}
+page: {margin: 43.2}
 styles:
   body: {size: 11, leading: 13, color: "#142535"}
   eyebrow: {size: 15, leading: 18, bold: true, color: "#00775F"}
@@ -35,13 +35,13 @@ layout:
                     - text: {value: "Join us live on YouTube!", style: invitation}
                     - text: {value: "Wednesdays, typically around 8 p.m. Central.", bold: true}
                     - text: {value: "Scan to watch us live, or catch up on past episodes.", url: "https://www.youtube.com/playlist?list=PL5LJPD9b2pRYsw2sU3LRCDhvDSiZ26E48"}
-            - weight: 1
+            - weight: 1.05
               block: {qr: {url: "https://www.youtube.com/@VossLab/streams", size: 128, icon: assets/youtube.svg}}
       - row:
           gap: 16
           items:
             - weight: 1
-              block: {image: {path: assets/episode-hosts.jpg, height: 70}}
+              block: {image: {path: assets/episode-hosts.png, height: 70}}
             - weight: 3
               block: {text: {value: "Live science, biology, and AI experiments made together. Pick an episode, then play what we make."}}
       - rule: {color: "#00775F"}
@@ -58,7 +58,7 @@ layout:
                     - row:
                         gap: 4
                         items:
-                          - weight: 3
+                          - weight: 2
                             block: {image: {path: assets/maze-chase.svg, height: 54}}
                           - weight: 1
                             block: {qr: {url: "https://vosslab.github.io/ms-taq-man/", size: 76, color: "#00775F", label: "Scan to play"}}
@@ -72,7 +72,7 @@ layout:
                     - row:
                         gap: 4
                         items:
-                          - weight: 3
+                          - weight: 2
                             block: {image: {path: assets/artery-blast.svg, height: 54}}
                           - weight: 1
                             block: {qr: {url: "https://vosslab.github.io/plaque-attack/", size: 76, color: "#935D00", label: "Scan to play"}}
@@ -89,7 +89,7 @@ layout:
                     - row:
                         gap: 4
                         items:
-                          - weight: 3
+                          - weight: 2
                             block: {image: {path: assets/cooperative-climb.svg, height: 54}}
                           - weight: 1
                             block: {qr: {url: "https://vosslab.github.io/bad-cell-day/", size: 76, color: "#076DAD", label: "Scan to play"}}
@@ -103,7 +103,7 @@ layout:
                     - row:
                         gap: 4
                         items:
-                          - weight: 3
+                          - weight: 2
                             block: {image: {path: assets/cell-journey.svg, height: 54}}
                           - weight: 1
                             block: {qr: {url: "https://vosslab.github.io/steroid-quest-into-the-nucleus/", size: 76, color: "#C80085", label: "Scan to play"}}

@@ -7,11 +7,12 @@ coordinates.
 ## Document shape
 
 The top level requires `layout`. `title` is accepted as flyer metadata but is not written into the
-PDF. `page.margin` is an optional margin in points and defaults to 32.
+PDF. `page.margin` is optional only for brevity: the renderer always uses a 43.2-point (0.6-inch)
+margin on every Letter-page edge and rejects any other value.
 
 ```yaml
 title: Example
-page: {margin: 28}
+page: {margin: 43.2}
 styles:
   title: {size: 42, leading: 44, bold: true, color: "#142535"}
 layout:
@@ -34,9 +35,11 @@ Each item in a row may use this wrapper:
   block: {text: {value: "Wide column"}}
 ```
 
-Weights divide the remaining width after gaps. Omit a weight for `1`. A row also accepts `valign`
-with ReportLab values such as `TOP`, `MIDDLE`, or `BOTTOM`. Use nesting to make groups; `row` and
-`col` do not accept `x`, `y`, widths, or heights.
+Weights divide the remaining width after real gutter columns. Omit a weight for `1`. A row also
+accepts `valign` with ReportLab values such as `TOP`, `MIDDLE`, or `BOTTOM`. Use nesting to make
+groups; `row` and `col` do not accept `x`, `y`, widths, or heights. The root `col` distributes
+unused vertical space between its top-level items, keeping the first and last content at the
+printer-safe bounds.
 
 ## Content blocks
 
@@ -52,7 +55,8 @@ Every content item is a mapping with exactly one block type.
 | `col` | `items` | `gap` |
 
 `image.path` and `qr.icon` name local files relative to the YAML file. Images preserve their natural
-aspect ratio and use the authored height in points. SVG images remain vector artwork in the PDF.
+aspect ratio and use the authored height in points, capped to the available column width without
+raster resampling. SVG images remain vector artwork in the PDF.
 
 QR codes use high error correction, a four-module quiet zone, and a deterministic mask. `size`
 defaults to 76 points. An icon is centered on a white patch; use it only when rendered scanning has
@@ -75,15 +79,14 @@ The default output is `output/pdf/<yaml-stem>.pdf`. Missing assets, unknown styl
 and malformed block mappings stop the build. The build writes to a temporary PDF before replacing an
 existing result.
 
-The renderer measures wrapped text, but it does not shrink content automatically. Check the emitted
-PDF page count after changing copy, artwork, sizes, or gaps. Large nested tables can create another
-page instead of raising a layout error.
+The renderer measures wrapped text and rejects a layout that exceeds one Letter page. Check the
+emitted PDF page count after changing copy, artwork, sizes, or gaps.
 
 ## Authoring limits
 
 - Use only the listed block types and documented fields. The current parser does not reject every
   unknown inner field, so spelling mistakes can be ignored silently.
-- Keep graphic dimensions and gaps proportional to their row. The renderer does not clamp an image
-  or QR code to a narrow column.
+- Keep graphic dimensions and gaps proportional to their row. Images cap to their available width;
+  QR codes must fit their authored column width and fail clearly when they do not.
 - Inspect final PDFs at print scale. A successful build alone does not establish readable text,
   unclipped artwork, or scannable QR codes.

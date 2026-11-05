@@ -1,87 +1,348 @@
 title: Voss Lab on GitHub
-page: {margin: 28}
+page:
+  margin: 43.2
 styles:
-  body: {size: 11, leading: 13.5, color: "#24354B"}
-  eyebrow: {size: 12, leading: 15, bold: true, color: "#00775F"}
-  title: {size: 38, leading: 40, bold: true, color: "#182B49"}
-  deck: {size: 15, leading: 18, color: "#314A68"}
-  section: {size: 15, leading: 18, bold: true, color: "#182B49"}
-  project: {size: 11.5, leading: 14, bold: true, color: "#00775F"}
-  footer: {size: 9, leading: 11, color: "#51667E", align: center}
+  body:
+    size: 9.5
+    leading: 11
+    color: '#24354B'
+  eyebrow:
+    size: 10
+    leading: 12
+    bold: true
+    color: '#00775F'
+  title:
+    size: 36
+    leading: 38
+    bold: true
+    color: '#182B49'
+  deck:
+    size: 12
+    leading: 14
+    color: '#314A68'
+  section:
+    size: 18
+    leading: 21
+    bold: true
+    color: '#182B49'
+  project:
+    size: 11
+    leading: 12.5
+    bold: true
+    color: '#00775F'
+  category:
+    size: 14
+    leading: 16.5
+    bold: true
+    color: '#182B49'
 layout:
   col:
-    gap: 23
+    gap: 2
     items:
-      - row:
-          gap: 14
-          items:
-            - weight: 1
-              block: {image: {path: assets/profile.png, height: 90}}
-            - weight: 3
-              block:
-                col:
-                  gap: 4
+    - row:
+        gap: 12
+        items:
+        - weight: 1
+          block:
+            image:
+              path: assets/profile.png
+              height: 85
+        - weight: 3.2
+          block:
+            col:
+              gap: 2
+              items:
+              - text:
+                  value: OPEN PROJECTS FOR LEARNING, RESEARCH, AND MAKING
+                  style: eyebrow
+              - text:
+                  value: 'Voss Lab
+
+                    on GitHub'
+                  style: title
+              - text:
+                  value: Practical, open tools for students, instructors, researchers, and curious makers.
+                  style: deck
+        - weight: 1.7
+          block:
+            qr:
+              url: https://github.com/vosslab
+              size: 132
+              color: '#182B49'
+              icon: assets/github_octocat.svg
+              label: SCAN TO EXPLORE
+    - rule:
+        color: '#00775F'
+        thickness: 2
+    - image:
+        path: assets/contribution_graph.webp
+        height: 103
+    - row:
+        gap: 14
+        items:
+        - weight: 1
+          block:
+            col:
+              gap: 2
+              items:
+              - text:
+                  value: Teaching and assessment
+                  style: category
+              - rule:
+                  color: '#007A00'
+                  thickness: 1
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "OPEN PROJECTS FOR LEARNING, RESEARCH, AND MAKING", style: eyebrow}
-                    - text: {value: "Voss Lab\non GitHub", style: title}
-                    - text: {value: "Practical, open tools for students, instructors, researchers, and curious makers.", style: deck}
-            - weight: 1
-              block: {qr: {url: "https://github.com/vosslab", size: 126, color: "#182B49", icon: assets/github_octocat.svg, label: "SCAN TO EXPLORE"}}
-      - rule: {color: "#00775F", thickness: 2}
-      - image: {path: assets/contribution_graph.png, height: 123}
-      - text: {value: "Pinned projects", style: section}
-      - row:
-          gap: 16
-          items:
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: biology-problems
+                      style: project
+                      color: '#007A00'
+                  - text: Generate biology homework and quiz items for instructors.
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "Education and assessment", style: eyebrow, color: "#00775F"}
-                    - text: {value: "biology-problems", style: project, color: "#007A00"}
-                    - text: {value: "Randomized biology questions for homework, quizzes, and LMS exports."}
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: qti-package-maker-rs
+                      style: project
+                      color: '#007A00'
+                  - text: Export LMS question banks and practice quizzes.
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "Research, games, and AI workflows", style: eyebrow, color: "#935D00"}
-                    - text: {value: "vossvolvox-pages", style: project, color: "#00775F"}
-                    - text: {value: "Measure protein and RNA volume, channels, solvent, and exit tunnels in your browser."}
-      - row:
-          gap: 16
-          items:
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: peptidyle-learning-engine
+                      style: project
+                      color: '#007A00'
+                  - text: Repeatable auto-graded practice for mastery learning.
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "qti-package-maker-rs", style: project, color: "#076DAD"}
-                    - text: {value: "One editable question bank becomes LMS packages, practice quizzes, and review copies."}
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: concept-map-maker
+                      style: project
+                      color: '#007A00'
+                  - text: Build rubric-checked concept maps in a browser.
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "bad-cell-day", style: project, color: "#935D00"}
-                    - text: {value: "A cooperative puzzle game about two molecular heroes navigating a living tumor."}
-      - row:
-          gap: 16
-          items:
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: protein-image-grader
+                      style: project
+                      color: '#007A00'
+                  - text: Grade protein images with rubrics and duplicate checks.
+              - text:
+                  value: Course materials
+                  style: category
+              - rule:
+                  color: '#076DAD'
+                  thickness: 1
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "concept-map-maker", style: project, color: "#A719DB"}
-                    - text: {value: "Build rubric-checked concept maps in a browser, then export them as SVG, PNG, or data."}
-            - weight: 1
-              block:
-                col:
-                  gap: 4
+                  - text:
+                      value: markdown-to-tutorial
+                      style: project
+                      color: '#076DAD'
+                  - text: Create Word, PDF, and Excel tutorials from plain text.
+              - col:
+                  gap: 1
                   items:
-                    - text: {value: "vosslab-skills", style: project, color: "#C80085"}
-                    - text: {value: "Reusable agent skills for planning, review, maintenance, and education content."}
-      - rule: {color: "#00775F", thickness: 2}
-      - text: {value: "Find source code, documentation, and new experiments at github.com/vosslab", style: footer}
+                  - text:
+                      value: djot-slide-builder
+                      style: project
+                      color: '#076DAD'
+                  - text: Build lecture-ready presentations from editable Djot source.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: exam-formatting-tools
+                      style: project
+                      color: '#076DAD'
+                  - text: Build and restyle instructor exam documents from YAML.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: movie-slide-maker
+                      style: project
+                      color: '#076DAD'
+                  - text: Make editable movie-summary slides from a film title.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: syllabus
+                      style: project
+                      color: '#076DAD'
+                  - text: Publish accessible course sites plus PDF and DOCX syllabi.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: course-finder-grid
+                      style: project
+                      color: '#076DAD'
+                  - text: Generate color-coded weekly course schedules in Excel.
+              - text:
+                  value: Documents
+                  style: category
+              - rule:
+                  color: '#A719DB'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: flyer-builder
+                      style: project
+                      color: '#A719DB'
+                  - text: Build print-ready one-page flyers from coordinate-free YAML.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: book-to-markdown
+                      style: project
+                      color: '#A719DB'
+                  - text: Convert technical books into editable, page-free Markdown.
+        - weight: 1
+          block:
+            col:
+              gap: 2
+              items:
+              - text:
+                  value: Molecular and laboratory
+                  style: category
+              - rule:
+                  color: '#00775F'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: ferrum-chemical-forge
+                      style: project
+                      color: '#00775F'
+                  - text: Pre-alpha chemical drawing for scientists and educators.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: vossvolvox-pages
+                      style: project
+                      color: '#00775F'
+                  - text: Measure molecular volume, solvent, channels, and tunnels.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: virtual-lab-protocol-simulation
+                      style: project
+                      color: '#00775F'
+                  - text: Practice cell-culture technique in an interactive browser lab.
+              - text:
+                  value: Academic publishing
+                  style: category
+              - rule:
+                  color: '#0067CC'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: curriculum-vitae
+                      style: project
+                      color: '#0067CC'
+                  - text: Maintain a public academic curriculum vitae.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: vosslab-daily-blog
+                      style: project
+                      color: '#0067CC'
+                  - text: Publish evidence-grounded work logs to a private site.
+              - text:
+                  value: Audio and video
+                  style: category
+              - rule:
+                  color: '#C80085'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: track-runner-virtual-dolly-cam
+                      style: project
+                      color: '#C80085'
+                  - text: Track runners and create stabilized virtual dolly video.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: emwy-video-editor
+                      style: project
+                      color: '#C80085'
+                  - text: Edit video from a focused YAML-driven CLI workflow.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: automated-radio-disc-jockey
+                      style: project
+                      color: '#C80085'
+                  - text: Add LLM-written, spoken introductions to local music.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: py-movie-media-manager
+                      style: project
+                      color: '#C80085'
+                  - text: Organize a personal movie and media library.
+              - text:
+                  value: LEGO and clubs
+                  style: category
+              - rule:
+                  color: '#935D00'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: nilbc-web
+                      style: project
+                      color: '#935D00'
+                  - text: Compare Northern Illinois Brick Club website proposals.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: brick-collection
+                      style: project
+                      color: '#935D00'
+                  - text: Manage LEGO labels, lookups, prices, and collection data.
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: brick-inventory-label-maker
+                      style: project
+                      color: '#935D00'
+                  - text: Print photo labels for LEGO storage bins from BrickLink IDs.
+              - text:
+                  value: Mac utilities
+                  style: category
+              - rule:
+                  color: '#B74300'
+                  thickness: 1
+              - col:
+                  gap: 1
+                  items:
+                  - text:
+                      value: screenshot-ai-renamer-macos
+                      style: project
+                      color: '#B74300'
+                  - text: Rename macOS screenshots from on-screen text, on device.
